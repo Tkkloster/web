@@ -48,6 +48,7 @@ ipython==7.18.1           # via -r requirements.in
 jedi==0.17.2              # via ipython
 kombu==5.0.2              # via celery
 msgpack==1.0.0            # via channels-redis
+numpy==1.19.4             # via scipy
 parso==0.7.1              # via jedi
 pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
@@ -67,7 +68,7 @@ python-dotenv==0.15.0     # via -r requirements.in
 pytz==2020.1              # via celery, django, django-timezone-field
 redis==3.5.3              # via celery
 requests==2.24.0          # via facebook-sdk
-scipy==1.5.3              # via -r requirements.in
+scipy==1.5.4              # via -r requirements.in
 service-identity==18.1.0  # via twisted
 six==1.15.0               # via automat, bcrypt, click-repl, cryptography, pyopenssl, python-dateutil
 soupsieve==2.0.1          # via beautifulsoup4
